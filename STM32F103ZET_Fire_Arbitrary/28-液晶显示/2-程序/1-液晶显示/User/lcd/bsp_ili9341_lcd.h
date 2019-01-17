@@ -151,7 +151,7 @@ extern uint8_t LCD_SCAN_MODE;
 /******************************* 定义 ILI934 显示屏常用颜色 ********************************/
 #define      BACKGROUND		                BLACK   //默认背景颜色
 
-#define      WHITE		 		                  0xFFFF	   //白色
+#define      WHITE		 		           0xFFFF	   //白色
 #define      BLACK                         0x0000	   //黑色 
 #define      GREY                          0xF7DE	   //灰色 
 #define      BLUE                          0x001F	   //蓝色 
