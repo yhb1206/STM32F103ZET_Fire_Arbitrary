@@ -928,6 +928,8 @@ void ILI9341_DispChar_EN ( uint16_t usX, uint16_t usY, const char cChar )
 		
 	//字模首地址
 	/*ascii码表偏移值乘以每个字模的字节数，求出字模的偏移位置*/
+	/*先找出字符的字摸对应表格中的位置，取其地址给Pfont,它就代表了
+	该字符的字摸的起始地址，详细的解释要看野火的教程*/
 	Pfont = (uint8_t *)&LCD_Currentfonts->table[ucRelativePositon * fontLength];
 	
 	//设置显示窗口
