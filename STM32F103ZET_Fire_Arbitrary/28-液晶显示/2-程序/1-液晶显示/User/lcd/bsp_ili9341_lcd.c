@@ -1003,7 +1003,7 @@ void ILI9341_DispStringLine_EN (  uint16_t line,  char * pStr )
 void ILI9341_DispString_EN ( 	uint16_t usX ,uint16_t usY,  char * pStr )
 {
 	while ( * pStr != '\0' )
-	{
+	{	/*为何要算上star？*/
 		if ( ( usX - ILI9341_DispWindow_X_Star + LCD_Currentfonts->Width ) > LCD_X_LENGTH )
 		{
 			usX = ILI9341_DispWindow_X_Star;
