@@ -72,7 +72,7 @@ void LCD_Test(void)
   ILI9341_DispStringLine_EN_CH(LINE(1),"分辨率：240x320 px");
   ILI9341_DispStringLine_EN_CH(LINE(2),"ILI9341液晶驱动");
   ILI9341_DispStringLine_EN_CH(LINE(3),"XPT2046触摸屏驱动");
-
+  ILI9341_DispStringLine_EN_CH(LINE(4),"云铭恒，云铭泽，云会宾");
 	/********显示变量示例*******/
 	LCD_SetTextColor(GREEN);
 
