@@ -27,21 +27,21 @@ uint8 mac[6]={0x00,0x08,0xdc,0x11,0x11,0x11};
 uint8 local_ip[4]  ={192,168,1,88};											/*定义W5500默认IP地址*/
 uint8 subnet[4]    ={255,255,255,0};										/*定义W5500默认子网掩码*/
 uint8 gateway[4]   ={192,168,1,1};											/*定义W5500默认网关*/
-uint8 dns_server[4]={114,114,114,114};									/*定义W5500默认DNS*/
+uint8 dns_server[4]={114,114,114,114};										/*定义W5500默认DNS*/
 
-uint16 local_port=5000;	                       					/*定义本地端口*/
+uint16 local_port=5000;	                       								/*定义本地端口*/
 
 /*定义远端IP信息*/
-uint8  remote_ip[4]={192,168,1,102};											/*远端IP地址*/
-uint16 remote_port=5000;																/*远端端口号*/
+uint8  remote_ip[4]={192,168,1,102};										/*远端IP地址*/
+uint16 remote_port=5000;													/*远端端口号*/
 
 /*IP配置方法选择，请自行选择*/
 uint8	ip_from=IP_FROM_DHCP;				
 
-uint8   dhcp_ok   = 0;													   			/*dhcp成功获取IP*/
-uint32	ms        = 0;															  	/*毫秒计数*/
-uint32	dhcp_time = 0;															  	/*DHCP运行计数*/
-vu8	    ntptimer  = 0;															  	/*NPT秒计数*/
+uint8   dhcp_ok   = 0;													   	/*dhcp成功获取IP*/
+uint32	ms        = 0;														/*毫秒计数*/
+uint32	dhcp_time = 0;														/*DHCP运行计数*/
+vu8	    ntptimer  = 0;														/*NPT秒计数*/
 
 /**
 *@brief		配置W5500的IP地址

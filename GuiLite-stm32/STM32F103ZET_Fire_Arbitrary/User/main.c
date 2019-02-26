@@ -66,11 +66,7 @@ int main ( void )
 	//Link your LCD driver & start UI:
 	my_gfx_op.draw_pixel = gfx_draw_pixel;
 	my_gfx_op.fill_rect = NULL;//gfx_fill_rect;
-	startHelloWave(NULL, 240, 320, 2, &my_gfx_op);
-	while (1)
-	{
-		
-	}	
+	startHelloWave(NULL, 240, 320, 2, &my_gfx_op);	
 }
 
 
