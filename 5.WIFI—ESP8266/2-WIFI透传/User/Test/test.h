@@ -11,7 +11,7 @@
 #define      macUser_ESP8266_ApSsid                       "love"                //要连接的热点的名称
 #define      macUser_ESP8266_ApPwd                        "yhb8288400"           //要连接的热点的密钥
 
-#define      macUser_ESP8266_TcpServer_IP                 "192.168.43.38"      //要连接的服务器的 IP
+#define      macUser_ESP8266_TcpServer_IP                 "192.168.43.37"      //要连接的服务器的 IP
 #define      macUser_ESP8266_TcpServer_Port               "8080"               //要连接的服务器的端口
 
 

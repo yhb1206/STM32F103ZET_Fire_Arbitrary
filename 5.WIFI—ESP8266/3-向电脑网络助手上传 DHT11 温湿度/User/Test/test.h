@@ -9,13 +9,13 @@
 
 /********************************** 用户需要设置的参数**********************************/
 //要连接的热点的名称，即WIFI名称
-#define      macUser_ESP8266_ApSsid           "A304" 
+#define      macUser_ESP8266_ApSsid           "love" 
 
 //要连接的热点的密钥
-#define      macUser_ESP8266_ApPwd            "wildfire" 
+#define      macUser_ESP8266_ApPwd            "yhb8288400" 
 
 //要连接的服务器的 IP，即电脑的IP
-#define      macUser_ESP8266_TcpServer_IP     "192.168.1.9" 
+#define      macUser_ESP8266_TcpServer_IP     "192.168.43.37" 
 
 //要连接的服务器的端口
 #define      macUser_ESP8266_TcpServer_Port    "8080"         
